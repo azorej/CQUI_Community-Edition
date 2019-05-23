@@ -1,7 +1,7 @@
 include("LensSupport")
 
 local m_NothingColor        = UI.GetColorValue("COLOR_NOTHING_BUILDER_LENS")
-local m_ResouceColor        = UI.GetColorValue("COLOR_RESOURCE_BUILDER_LENS")
+local m_ResourceColor       = UI.GetColorValue("COLOR_RESOURCE_BUILDER_LENS")
 local m_DamagedColor        = UI.GetColorValue("COLOR_DAMAGED_BUILDER_LENS")
 local m_RecommendedColor    = UI.GetColorValue("COLOR_RECOMMENDED_BUILDER_LENS")
 local m_FeatureColor        = UI.GetColorValue("COLOR_FEATURE_BUILDER_LENS")
@@ -10,20 +10,10 @@ local m_GenericColor        = UI.GetColorValue("COLOR_GENERIC_BUILDER_LENS")
 
 local m_FallbackColor = m_NothingColor
 
-g_ModLenses_Builder_Config = {
-  [m_NothingColor] = {},
-  [m_DamagedColor] = {},
-  [m_ResouceColor] = {},
-  [m_RecommendedColor] = {},
-  [m_HillColor] = {},
-  [m_FeatureColor] = {},
-  [m_GenericColor] = {},
-}
-
 g_ModLenses_Builder_Priority = {
   m_NothingColor,
   m_DamagedColor,
-  m_ResouceColor,
+  m_ResourceColor,
   m_RecommendedColor,
   m_HillColor,
   m_FeatureColor,

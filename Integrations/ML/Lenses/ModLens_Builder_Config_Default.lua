@@ -408,6 +408,15 @@ local m_HillColor:number = UI.GetColorValue("COLOR_HILL_BUILDER_LENS")
 local m_FeatureColor:number = UI.GetColorValue("COLOR_FEATURE_BUILDER_LENS")
 local m_GenericColor:number = UI.GetColorValue("COLOR_GENERIC_BUILDER_LENS")
 
+g_ModLenses_Builder_Config = {
+  [m_NothingColor] = {},
+  [m_DamagedColor] = {},
+  [m_ResourceColor] = {},
+  [m_RecommendedColor] = {},
+  [m_HillColor] = {},
+  [m_FeatureColor] = {},
+  [m_GenericColor] = {},
+}
 
 -- NATIONAL PARK
 --------------------------------------

@@ -50,8 +50,8 @@
 
     <!-- EXP 1 -->
     <File>Assets/Expansion1/CityBanners/citybannermanager.lua</File>
-    <File>Assets/Expansion1/CityBanners/citybannermanager.xml</File>
-    <File>Assets/Expansion1/CityBanners/citybannerinstances.xml</File>
+    <File>Assets/Expansion1/CityBanners/CityBannerManager.xml</File>
+    <File>Assets/Expansion1/CityBanners/CityBannerInstances.xml</File>
     <File>Assets/Expansion1/Replacements/citypanelculture_CQUI.lua</File>
     <File>Assets/Expansion1/Replacements/citypaneloverview_expansion1_CQUI.lua</File>
     <File>Assets/Expansion1/Replacements/citystates.xml</File>
@@ -65,7 +65,7 @@
     <File>Assets/Expansion1/Replacements/techtree_CQUI_expansion1.lua</File>
     <File>Assets/Expansion1/Replacements/toppanel_CQUI_expansion1.lua</File>
     <File>Assets/Expansion1/Replacements/unitpanel_CQUI_expansion1.lua</File>
-    <File>Assets/Expansion1/Replacements/worldtracker_expansion1.lua</File>
+    <File>Assets/Expansion1/Replacements/WorldTracker_Expansion1.lua</File>
 
     <!-- EXP 2 -->
     <File>Assets/Expansion2/Replacements/citypaneloverview_expansion2_CQUI.lua</File>
@@ -85,7 +85,7 @@
     <File>Assets/Expansion2/Replacements/toppanel_CQUI_expansion2.lua</File>
     <File>Assets/Expansion2/Replacements/unitpanel_CQUI_expansion2.lua</File>
     <File>Assets/Expansion2/CityBanners/citybannermanager.lua</File>
-    <File>Assets/Expansion2/CityBanners/citybannerinstances.xml</File>
+    <File>Assets/Expansion2/CityBanners/CityBannerInstances.xml</File>
 
     <File>Integrations/URS/Expansion1/Replacements/reportscreen_expansion1.lua</File>
     <File>Integrations/URS/Expansion1/Replacements/reportscreen.xml</File>
@@ -184,7 +184,7 @@
     <File>Assets/UI/ToolTips/plottooltip_CQUI.lua</File>
     <File>Assets/UI/Utilities/extendedrelationship.lua</File>
     <File>Assets/UI/WorldView/citybannermanager.lua</File>
-    <File>Assets/UI/WorldView/citybannermanager.xml</File>
+    <File>Assets/UI/WorldView/CityBannerManager.xml</File>
     <File>Assets/UI/WorldView/districtploticonmanager_CQUI.lua</File>
     <File>Assets/UI/WorldView/plotinfo_CQUI.lua</File>
     <File>Assets/UI/WorldView/plotinfo.xml</File>
@@ -262,7 +262,7 @@
     <File>Integrations/ML/Lenses/ModLens_CityOverlap.lua</File>
     <File>Integrations/ML/Lenses/ModLens_Resource.xml</File>
     <File>Integrations/ML/Lenses/ModLens_Resource.lua</File>
-    <File>Integrations/ML/DLC/Expansion1/UI/Replacements/MinimapPanel.xml</File>
+    <File>Integrations/ML/DLC/Expansion1/UI/Replacements/minimappanel.xml</File>
     <File>Integrations/BES/UI/espionagesupport.lua</File>
     <File>Integrations/BES/UI/Choosers/espionagechooser.lua</File>
     <File>Integrations/BES/UI/Choosers/espionagechooser.xml</File>
@@ -357,7 +357,7 @@
         <File>Assets/UI/ToolTips/plottooltip_CQUI.lua</File>
         <File>Assets/UI/Utilities/extendedrelationship.lua</File>
         <File>Assets/UI/WorldView/citybannermanager.lua</File>
-        <File>Assets/UI/WorldView/citybannermanager.xml</File>
+        <File>Assets/UI/WorldView/CityBannerManager.xml</File>
         <File>Assets/UI/WorldView/districtploticonmanager_CQUI.lua</File>
         <File>Assets/UI/WorldView/plotinfo_CQUI.lua</File>
         <File>Assets/UI/WorldView/plotinfo.xml</File>
@@ -372,8 +372,8 @@
       </Properties>
       <Items>
         <File>Assets/Expansion1/CityBanners/citybannermanager.lua</File>
-        <File>Assets/Expansion1/CityBanners/citybannermanager.xml</File>
-        <File>Assets/Expansion1/CityBanners/citybannerinstances.xml</File>
+        <File>Assets/Expansion1/CityBanners/CityBannerManager.xml</File>
+        <File>Assets/Expansion1/CityBanners/CityBannerInstances.xml</File>
         <File>Assets/Expansion1/Replacements/citypaneloverview_expansion1_CQUI.lua</File>
         <File>Assets/Expansion1/Replacements/citystates.xml</File>
         <File>Assets/Expansion1/Replacements/citysupport.lua</File>
@@ -397,7 +397,7 @@
         <File>Assets/Expansion1/Replacements/citypanelculture_CQUI.lua</File>
         <File>Assets/Expansion1/Replacements/leadericon.lua</File>
         <File>Assets/Expansion1/Replacements/leadericon.xml</File>
-        <File>Assets/Expansion1/Replacements/worldtracker_expansion1.lua</File>
+        <File>Assets/Expansion1/Replacements/WorldTracker_Expansion1.lua</File>
       </Items>
     </ImportFiles>
 
@@ -425,7 +425,7 @@
         <File>Assets/Expansion2/Replacements/toppanel_CQUI_expansion2.lua</File>
         <File>Assets/Expansion2/Replacements/unitpanel_CQUI_expansion2.lua</File>
         <File>Assets/Expansion2/CityBanners/citybannermanager.lua</File>
-        <File>Assets/Expansion2/CityBanners/citybannerinstances.xml</File>
+        <File>Assets/Expansion2/CityBanners/CityBannerInstances.xml</File>
       </Items>
     </ImportFiles>
 
@@ -948,7 +948,7 @@
         <LoadOrder>101</LoadOrder>
       </Properties>
       <Items>
-        <File>Integrations/ML/DLC/Expansion1/UI/Replacements/MinimapPanel.xml</File>
+        <File>Integrations/ML/DLC/Expansion1/UI/Replacements/minimappanel.xml</File>
       </Items>
     </ImportFiles>
 
