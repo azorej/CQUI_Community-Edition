@@ -80,6 +80,7 @@ report
 research
 resource
 ribbon
+route
 schema
 scout
 screen
