@@ -45,6 +45,7 @@ in
 input
 instances
 launch
+launchbar
 layer
 leader
 lens
@@ -84,6 +85,7 @@ route
 schema
 scout
 screen
+screenhooks
 settings
 states
 status
