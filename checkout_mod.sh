@@ -20,10 +20,13 @@ ensure_path() {
     echo $(realpath "$1")
 }
 
-DEFAULT_PROJECTS_PATH=$(ensure_path ~/games/mods/civ6)
-PROJECTS_PATH="${VAR1:=$DEFAULT_PROJECTS_PATH}"
+DEFAULT_PROJECTS_PATH="${HOME}/games/mods/civ6"
+PROJECTS_PATH="${1:-$DEFAULT_PROJECTS_PATH}"
 MOD_NAME="CQUI_Community-Edition"
-GAME_DATA_PATH=$(realpath ~/.local/share/aspyr-media/Sid\ Meier\'s\ Civilization\ VI)
+GAME_DATA_PATH=$(realpath "${HOME}/.local/share/aspyr-media/Sid Meier's Civilization VI")
+
+echo "Creating projects path..."
+PROJECTS_PATH=$(ensure_path "$PROJECTS_PATH")
 MOD_PATH="${PROJECTS_PATH}/${MOD_NAME}"
 
 echo "Checking game data directory..."
